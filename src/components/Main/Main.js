@@ -1,8 +1,9 @@
 import React, {useState, useEffect} from 'react'
 import axios from 'axios'
+import '../../css-modules/main-module.css'
 
 // React components
-import Word from './Word'
+import Word from './Word' 
 
 const Main = () => {
     const [wordOTD, setWordOFTD] = useState({})
